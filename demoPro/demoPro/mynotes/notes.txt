@@ -1,0 +1,3 @@
+﻿﻿dotnet tool install --global dotnet-ef
+
+dotnet ef dbcontext scaffold "Host=localhost;Database=DemoPro;Username=postgres;Password=postgres" Npgsql.EntityFrameworkCore.PostgreSQL
